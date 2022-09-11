@@ -3,8 +3,6 @@ var salary = require('./../problems/salary');
 var assert = require('assert');
 
 
-console.log(compare);
-
 describe('salary', function () {
   describe('success case', function () {
     it('100, 500, 1000 -> 900', function () {

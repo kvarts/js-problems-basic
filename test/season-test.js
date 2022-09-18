@@ -12,13 +12,16 @@ describe('season', function () {
       assert.equal(season(12), 'Winter');
     });
     it('9 -> Autumn', function () {
-      assert.equal(season(8), 'Autumn');
+      assert.equal(season(9), 'Autumn');
     });
     it('7 -> Summer', function () {
       assert.equal(season(7), 'Summer');
     });
     it('15 -> false', function () {
       assert.equal(season(15), false); 
+    });
+    it('0 -> false', function () {
+      assert.equal(season(0), false);
     });
   });
 });

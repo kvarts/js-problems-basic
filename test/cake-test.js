@@ -11,5 +11,8 @@ describe('cake', function () {
     it('3 -> 3', function () {
       assert.equal(cake(3), 3);
     });
+    it('1 -> 0', function () {
+      assert.equal(cake(1), 0);
+    });
   });
 });
